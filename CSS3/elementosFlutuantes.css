@@ -6,7 +6,7 @@
     margin: 10px;
     float: left;
 }
-
+/*
 .conteudo1{
     background: red;
     border: 1px solid gray;
@@ -14,4 +14,8 @@
     height: 150px;
     margin: 10px;
     float: left ;
+}*/
+
+.clear{
+    clear: both;
 }
