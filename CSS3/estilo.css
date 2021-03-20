@@ -8,8 +8,7 @@
     background-color: gray;
 }*/
 
-/*
-************ Navegação com abas **********/
+/************* Navegação com abas **********/
 /*
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -190,7 +189,7 @@ img.img-noticia {
 }*/
 
 /****** Layout e imagem de largura fixa | Coluna falsa ************/
-body {
+/*body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #f2f2f2;
 }
@@ -244,8 +243,7 @@ img.img-noticia {
     padding-top:20px;
     padding-bottom:20px;
     /*background: #d1d1d1;*/
-}
-
+/*}
 #navegacao ul {
     list-style: none;
 }
@@ -258,4 +256,39 @@ img.img-noticia {
     clear: both;
     background: #c4c4c4;
     padding: 5px;
+}*/
+
+/****** Estilizando tabelas ***********/
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alterado {
+    background-color: #efefef;
+}
+
+.numero {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
 }
